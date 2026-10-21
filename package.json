@@ -1,0 +1,16 @@
+{
+  "name": "my-evinced-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@evinced/js-playwright-sdk": "^2.59.0",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
