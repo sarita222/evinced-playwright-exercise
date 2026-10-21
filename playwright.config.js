@@ -1,7 +1,10 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
-process.loadEnvFile();
-
+try {
+  process.loadEnvFile();
+} catch {
+  // No .env file (e.g. on GitHub): the values come from GitHub Secrets instead
+}
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
